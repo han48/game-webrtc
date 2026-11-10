@@ -1,0 +1,385 @@
+{
+  "version": 1,
+  "bounds": {
+    "minX": -130,
+    "maxX": 130,
+    "minZ": -143,
+    "maxZ": 125
+  },
+  "defaultSpawn": { "x": 0, "z": 117 },
+  "spawnOffsets": [
+    { "x": 0, "z": 0 },
+    { "x": -2.4, "z": 0 },
+    { "x": 2.4, "z": 0 },
+    { "x": -4.8, "z": 0 },
+    { "x": 4.8, "z": 0 },
+    { "x": -2.4, "z": 3 },
+    { "x": 2.4, "z": 3 },
+    { "x": 0, "z": 3 }
+  ],
+  "spawnFallback": {
+    "originOffset": { "x": -6, "z": 6 },
+    "columns": 6,
+    "stepX": 2.4,
+    "stepZ": 2.4
+  },
+  "floor": {
+    "width": 260,
+    "depth": 268,
+    "surfaceWidth": 258,
+    "surfaceDepth": 266,
+    "baseColor": "#2d6a3a",
+    "surfaceColor": "#3a7d47",
+    "entryStrip": {
+      "x": 0,
+      "z": 112,
+      "width": 60,
+      "depth": 5,
+      "color": "#5a4632"
+    }
+  },
+  "theme": {
+    "background": "#070a12",
+    "fogColor": "#0a0e18",
+    "fogNear": 130,
+    "fogFar": 360,
+    "ambientColor": "#5a6480",
+    "ambientIntensity": 0.4,
+    "directionalColor": "#9fb0e0",
+    "directionalIntensity": 0.55,
+    "directionalPosition": [30, 80, 50],
+    "wallColor": "#141c30"
+  },
+  "meetingRooms": [],
+  "entrance": {
+    "wallSide": "none",
+    "spawn": { "x": 0, "z": 117 },
+    "label": "Cổng vào · ATVNCG2026 D1-2",
+    "labelPosition": { "x": 0, "z": 115 },
+    "floorPatch": {
+      "x": 0,
+      "z": 113,
+      "width": 40,
+      "depth": 6
+    }
+  },
+  "workstations": {
+    "columns": [],
+    "islands": [],
+    "desk": { "width": 1.9, "depth": 0.92 },
+    "chairOffset": 1.05
+  },
+  "camera": {
+    "offsetX": 0,
+    "height": 78,
+    "offsetZ": 95,
+    "lookY": 2
+  },
+  "layout": {
+    "kind": "concert",
+    "title": "ATVNCG2026 · D1-2",
+    "debugCamera": { "x": 0, "z": -89, "height": 85 },
+    "eventBoundary": {
+      "minX": -120,
+      "maxX": 120,
+      "minZ": -130,
+      "maxZ": 87,
+      "entryWidth": 28,
+      "height": 2.8,
+      "thickness": 0.5,
+      "color": "#606a70",
+      "entryGateHeight": 8,
+      "entryGateColor": "#b7893f"
+    },
+    "centralClusterScale": 0.72,
+    "centralClusterOffsetZ": -26,
+    "stage": {
+      "x": 0,
+      "z": -110,
+      "width": 70,
+      "depth": 16,
+      "height": 2.4,
+      "footprint": [[-35, -8], [35, -8], [35, 2], [25, 8], [-25, 8], [-35, 2]],
+      "cornerRadius": 3,
+      "frontLipWidth": 50,
+      "floorLabel": {
+        "text": "SÂN KHẤU",
+        "fontSize": 4.5,
+        "color": "#858c8f"
+      },
+      "deckColor": "#cfd4d6",
+      "trussColor": "#2a2320",
+      "logoColor": "#f2f4f8",
+      "accentColor": "#ff3b1d",
+      "glowColor": "#ff5a2b",
+      "eventTitle": "ANH TRAI VƯỢT NGÀN CHÔNG GAI 2026",
+      "labels": [],
+      "videoScreen": {
+        "videoId": "qelODM2Kkf4",
+        "durationSeconds": 5520,
+        "width": 26.6667,
+        "height": 15,
+        "x": 0,
+        "y": 9.9,
+        "z": -7.55
+      },
+      "runway": { "length": 106.1667, "width": 4.2, "label": "RUNWAY" }
+    },
+    "gate": {
+      "x": 0,
+      "z": 97,
+      "width": 34,
+      "height": 20,
+      "shieldColor": "#c69a52",
+      "shieldEdge": "#5e4423",
+      "scaffoldColor": "#8a8f98",
+      "emblemText": "M",
+      "label": "CONCERT",
+      "labelColor": "#b7893f",
+      "title": "ANH TRAI VƯỢT NGÀN CHÔNG GAI 2026",
+      "uplightColor": "#ffd98a",
+      "uplightIntensity": 24
+    },
+    "pits": [
+      {
+        "name": "LONG MÃ",
+        "x": -15.5,
+        "z": -91,
+        "rotationY": 0,
+        "width": 24,
+        "depth": 32,
+        "footprint": [[-12, -12], [12, -12], [12, -4], [-12, 20]],
+        "priceLabel": "3.000.000 ₫",
+        "color": "#d64d44",
+        "textColor": "#2b2020"
+      },
+      {
+        "name": "CHIẾN MÃ",
+        "x": 15.5,
+        "z": -91,
+        "rotationY": 0,
+        "width": 24,
+        "depth": 32,
+        "footprint": [[-12, -12], [12, -12], [12, 20], [-12, -4]],
+        "priceLabel": "3.000.000 ₫",
+        "color": "#d64d44",
+        "textColor": "#2b2020"
+      },
+      {
+        "name": "HIỂN NHIÊN",
+        "x": -10.234,
+        "z": -71.834,
+        "width": 16,
+        "depth": 16,
+        "footprint": [
+          [-8.923, 2.391],
+          [2.391, -8.923],
+          [6.534, 6.534]
+        ],
+        "priceLabel": "4.000.000 ₫",
+        "color": "#d64d44",
+        "textColor": "#2b2020"
+      },
+      {
+        "name": "THÁM HIỂM",
+        "x": 10.234,
+        "z": -71.834,
+        "width": 16,
+        "depth": 16,
+        "footprint": [
+          [-2.391, -8.923],
+          [8.923, 2.391],
+          [-6.534, 6.534]
+        ],
+        "priceLabel": "4.000.000 ₫",
+        "color": "#d64d44",
+        "textColor": "#2b2020"
+      }
+    ],
+    "pitRunways": [
+      { "start": [-34, -122], "end": [34, -122], "width": 2.4, "color": "#888888" },
+      { "start": [-34, -122], "end": [-34, -69], "width": 2.4, "color": "#888888" },
+      { "start": [34, -122], "end": [34, -69], "width": 2.4, "color": "#888888" },
+      { "start": [-34, -69], "end": [0, -53], "width": 2.4, "color": "#888888" },
+      { "start": [34, -69], "end": [0, -53], "width": 2.4, "color": "#888888" },
+      { "start": [-25.025, -68.525], "end": [-1.025, -92.525], "width": 1.4, "color": "#888888" },
+      { "start": [25.025, -68.525], "end": [1.025, -92.525], "width": 1.4, "color": "#888888" }
+    ],
+    "standingTribunes": [
+      {
+        "x": -42,
+        "z": -63,
+        "width": 77,
+        "depth": 70,
+        "rotationY": 0,
+        "floorHeight": 0,
+        "fenceHeight": 0.5,
+        "gateWidth": 3,
+        "columns": [
+          {
+            "name": "NGOẠI Ô",
+            "color": "#9d58d2",
+            "width": 15.4,
+            "priceLabel": "1.000.000 ₫",
+            "footprint": [[-7.1, -31.4], [7.1, -34.4], [7.1, 34.4], [3, 34.4]]
+          },
+          { "name": "MỸ NAM", "color": "#f0bf30", "width": 15.4, "priceLabel": "1.500.000 ₫" },
+          { "name": "CỦI LỬA", "color": "#c46d0b", "width": 23.1, "priceLabel": "2.000.000 ₫" },
+          {
+            "name": "LÀM MẠNH",
+            "color": "#df4932",
+            "width": 23.1,
+            "depth": 32,
+            "dz": 19,
+            "priceLabel": "3.000.000 ₫",
+            "footprint": [[-11.55, -16], [1.55, -16], [11.55, -6], [11.55, 16], [-11.55, 16]]
+          }
+        ]
+      },
+      {
+        "x": 42,
+        "z": -63,
+        "width": 77,
+        "depth": 70,
+        "rotationY": 0,
+        "floorHeight": 0,
+        "fenceHeight": 0.5,
+        "gateWidth": 3,
+        "columns": [
+          {
+            "name": "SOẠN NHẠC",
+            "color": "#df4932",
+            "width": 23.1,
+            "depth": 32,
+            "dz": 19,
+            "priceLabel": "3.000.000 ₫",
+            "footprint": [[-11.55, -6], [-1.55, -16], [11.55, -16], [11.55, 16], [-11.55, 16]]
+          },
+          { "name": "ĐIỆN ẢNH", "color": "#c46d0b", "width": 23.1, "priceLabel": "2.000.000 ₫" },
+          { "name": "HOA LỬA", "color": "#f0bf30", "width": 15.4, "priceLabel": "1.500.000 ₫" },
+          {
+            "name": "VINH QUY",
+            "color": "#9d58d2",
+            "width": 15.4,
+            "priceLabel": "1.000.000 ₫",
+            "footprint": [[-7.1, -34.4], [7.1, -31.4], [-3, 34.4], [-7.1, 34.4]]
+          }
+        ]
+      }
+    ],
+    "sideWings": [
+      {
+        "side": "left",
+        "x": -97.584,
+        "z": -58.011,
+        "rotationY": 0.152,
+        "blocks": [
+          { "name": "ANH TÀI LẮM CHIÊU", "color": "#70b923", "dx": -9, "dz": -14.97825, "width": 18, "depth": 29.9565, "priceLabel": "1.000.000 ₫" },
+          { "name": "ANH TÀI HÀO HOA", "color": "#19ae9b", "dx": 9, "dz": -14.97825, "width": 18, "depth": 29.9565, "tag": "ĐẶC BIỆT · XE LĂN", "priceLabel": "1.500.000 ₫" },
+          { "name": "QUÁI KIỆT MỘNG MƠ", "color": "#147d67", "dx": -9, "dz": 14.97825, "width": 18, "depth": 29.9565, "priceLabel": "1.500.000 ₫" },
+          { "name": "BIỆT ĐỘI TÁI XUẤT", "color": "#58d8b8", "dx": 9, "dz": 14.97825, "width": 18, "depth": 29.9565, "priceLabel": "2.000.000 ₫" }
+        ]
+      },
+      {
+        "side": "right",
+        "x": 97.584,
+        "z": -58.011,
+        "rotationY": -0.152,
+        "blocks": [
+          { "name": "ANH TÀI NỘI LỰC", "color": "#19ae9b", "dx": -9, "dz": -14.97825, "width": 18, "depth": 29.9565, "priceLabel": "1.500.000 ₫" },
+          { "name": "TÌNH ĐẦU RỰC CHÁY", "color": "#70b923", "dx": 9, "dz": -14.97825, "width": 18, "depth": 29.9565, "priceLabel": "1.000.000 ₫" },
+          { "name": "ANH TÀI TÌNH", "color": "#58d8b8", "dx": -9, "dz": 14.97825, "width": 18, "depth": 29.9565, "priceLabel": "2.000.000 ₫" },
+          { "name": "NHỮNG KẺ LÃNG DU", "color": "#147d67", "dx": 9, "dz": 14.97825, "width": 18, "depth": 29.9565, "priceLabel": "1.500.000 ₫" }
+        ]
+      }
+    ],
+    "foh": {
+      "x": 0,
+      "z": -17,
+      "width": 32.2,
+      "depth": 12,
+      "tier": 1,
+      "color": "#262a30",
+      "textColor": "#d7dde6",
+      "label": "FOH"
+    },
+    "seatedSections": [
+      {
+        "name": "SÂN KHẤU",
+        "z": -17,
+        "depth": 12,
+        "blocks": [
+          { "name": "NGUYÊN TỐ", "x": -64.4, "width": 32.2, "color": "#218db8", "priceLabel": "3.000.000 ₫" },
+          { "name": "MỸ MÃN", "x": -32.2, "width": 32.2, "color": "#de4c9a", "priceLabel": "4.000.000 ₫" },
+          { "name": "HỢP LỰC", "x": 32.2, "width": 32.2, "color": "#de4c9a", "priceLabel": "4.000.000 ₫" },
+          { "name": "RỰC RỠ", "x": 64.4, "width": 32.2, "color": "#218db8", "priceLabel": "3.000.000 ₫" }
+        ],
+        "tier": 1
+      },
+      {
+        "name": "S-VIP VÀ STAGE B",
+        "z": -5,
+        "depth": 12,
+        "blocks": [
+          { "name": "S-VIP 1", "x": -50.5, "width": 60, "color": "#e9c345", "textColor": "#241d0a", "priceLabel": "10.000.000 ₫" },
+          { "name": "STAGE B", "x": 0, "width": 41, "color": "#202c82" },
+          { "name": "S-VIP 2", "x": 50.5, "width": 60, "color": "#e9c345", "textColor": "#241d0a", "priceLabel": "10.000.000 ₫" }
+        ],
+        "tier": 1
+      },
+      {
+        "name": "HÀNG 1",
+        "z": 14,
+        "depth": 12,
+        "blocks": [
+          { "name": "LỤC LẠC", "x": -56.5, "width": 48, "color": "#218db8", "priceLabel": "3.000.000 ₫" },
+          { "name": "QUÝ TỬ", "x": 0, "width": 65, "color": "#de4c9a", "priceLabel": "4.000.000 ₫" },
+          { "name": "THĂNG HOA", "x": 56.5, "width": 48, "color": "#218db8", "priceLabel": "3.000.000 ₫" }
+        ],
+        "tier": 2
+      },
+      {
+        "name": "HÀNG 2",
+        "z": 26,
+        "depth": 12,
+        "blocks": [
+          { "name": "HÀO MÔN", "x": -50.5, "width": 36, "color": "#283ab6", "priceLabel": "2.500.000 ₫" },
+          { "name": "BỆNH BỔNG", "x": 0, "width": 65, "color": "#168fa4", "priceLabel": "3.000.000 ₫" },
+          { "name": "LẪY LỪNG", "x": 50.5, "width": 36, "color": "#283ab6", "priceLabel": "2.500.000 ₫" }
+        ],
+        "tier": 4
+      },
+      {
+        "name": "HÀNG 3",
+        "z": 38,
+        "depth": 12,
+        "blocks": [
+          { "name": "KHẢI HOÀN", "x": -24, "width": 48, "color": "#282886", "priceLabel": "2.000.000 ₫" },
+          { "name": "KỲ TÍCH", "x": 24, "width": 48, "color": "#282886", "priceLabel": "2.000.000 ₫" }
+        ],
+        "tier": 6
+      },
+      {
+        "name": "HÀNG 4",
+        "z": 50,
+        "depth": 12,
+        "blocks": [
+          { "name": "ANH CHÀNG NHÀ BÊN", "x": -18.5, "width": 37, "color": "#182f88", "priceLabel": "1.500.000 ₫" },
+          { "name": "TỔ ĐỘI SÓNG NGẦM", "x": 18.5, "width": 37, "color": "#182f88", "priceLabel": "1.500.000 ₫" }
+        ],
+        "tier": 6
+      }
+    ],
+    "seating": {
+      "baseHeight": 3,
+      "tierStep": 1.5
+    },
+    "stairs": [],
+    "runways": [
+      { "x": 0, "zStart": 1, "zEnd": 8, "spanWidth": 161, "tier": 2, "heightOffset": -0.5, "color": "#888888" }
+    ],
+    "accessStairs": [
+      { "x": 0, "zStart": 1, "zEnd": 4.5, "spanWidth": 80.5, "fromTier": 1, "toTier": 2, "toHeightOffset": -0.5, "color": "#888888" }
+    ]
+  }
+}

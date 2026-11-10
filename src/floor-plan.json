@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "bounds": {
+    "minX": -9.5,
+    "maxX": 9.5,
+    "minZ": -17.5,
+    "maxZ": 17.5
+  },
+  "defaultSpawn": { "x": 7.5, "z": -9.2 },
+  "spawnOffsets": [
+    { "x": 0, "z": 0 },
+    { "x": -1.2, "z": 0 },
+    { "x": 1.2, "z": 0 },
+    { "x": 0, "z": -1.8 },
+    { "x": 0, "z": 1.8 },
+    { "x": -1.2, "z": 1.8 },
+    { "x": 1.2, "z": 1.8 },
+    { "x": 0, "z": 3.6 }
+  ],
+  "spawnFallback": {
+    "originOffset": { "x": -1.2, "z": 3 },
+    "columns": 4,
+    "stepX": 1.2,
+    "stepZ": 1.2
+  },
+  "floor": {
+    "width": 20,
+    "depth": 36,
+    "surfaceWidth": 19,
+    "surfaceDepth": 35,
+    "baseColor": "#c9d5cf",
+    "surfaceColor": "#e5e9df",
+    "entryStrip": {
+      "x": 0,
+      "z": -9.8,
+      "width": 19,
+      "depth": 1.1,
+      "color": "#d4ded4"
+    }
+  },
+  "theme": {
+    "background": "#dfe9f3",
+    "fogColor": "#dfe9f3",
+    "fogNear": 18,
+    "fogFar": 36,
+    "ambientColor": "#ffffff",
+    "ambientIntensity": 0.95,
+    "directionalColor": "#ffffff",
+    "directionalIntensity": 1.4,
+    "directionalPosition": [12, 16, 8],
+    "wallColor": "#c7d5de"
+  },
+  "meetingRooms": [
+    {
+      "name": "Phòng họp 1",
+      "x": -5.8,
+      "z": -13.9,
+      "width": 7.1,
+      "depth": 6.8,
+      "doorWidth": 2.9,
+      "wallHeight": 2.7,
+      "wallThickness": 0.18,
+      "table": {
+        "x": 0,
+        "z": -0.05,
+        "width": 3.1,
+        "depth": 1.45
+      }
+    },
+    {
+      "name": "Phòng họp 2",
+      "x": 1.55,
+      "z": -13.9,
+      "width": 7.1,
+      "depth": 6.8,
+      "doorWidth": 2.9,
+      "wallHeight": 2.7,
+      "wallThickness": 0.18,
+      "table": {
+        "x": 0,
+        "z": -0.05,
+        "width": 3.1,
+        "depth": 1.45
+      }
+    }
+  ],
+  "entrance": {
+    "wallSide": "right",
+    "spawn": { "x": 7.5, "z": -9.2 },
+    "wallGap": {
+      "minZ": -15,
+      "maxZ": -13
+    },
+    "label": "Cửa ra vào",
+    "labelPosition": {
+      "x": 7.5,
+      "z": -14
+    },
+    "floorPatch": {
+      "x": 7.5,
+      "z": -10.2,
+      "width": 1.8,
+      "depth": 1.2
+    }
+  },
+  "workstations": {
+    "columns": [-4.875, -2.925, -0.975, 0.975, 2.925, 4.875],
+    "islands": [
+      { "rows": [-7.5, -6.56] },
+      { "rows": [-2.125, -1.185] },
+      { "rows": [3.25, 4.19] },
+      { "rows": [8.625, 9.565] },
+      { "rows": [14, 14.94] }
+    ],
+    "desk": {
+      "width": 1.9,
+      "depth": 0.92
+    },
+    "chairOffset": 1.05
+  },
+  "camera": {
+    "offsetX": 7.5,
+    "height": 11.5,
+    "offsetZ": 8.5,
+    "lookY": 1.2
+  }
+}

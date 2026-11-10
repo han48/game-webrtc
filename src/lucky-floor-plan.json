@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "bounds": { "minX": -12, "maxX": 12, "minZ": -12, "maxZ": 12 },
+  "defaultSpawn": { "x": 0, "z": 9 },
+  "spawnOffsets": [
+    { "x": 0, "z": 0 }, { "x": -1.4, "z": 0 }, { "x": 1.4, "z": 0 },
+    { "x": 0, "z": 1.4 }, { "x": -1.4, "z": 1.4 }, { "x": 1.4, "z": 1.4 },
+    { "x": 0, "z": 2.8 }, { "x": -1.4, "z": 2.8 }, { "x": 1.4, "z": 2.8 }
+  ],
+  "spawnFallback": {
+    "originOffset": { "x": -1.4, "z": 1.4 },
+    "columns": 5, "stepX": 1.4, "stepZ": 1.4
+  },
+  "floor": {
+    "width": 24, "depth": 24, "surfaceWidth": 23, "surfaceDepth": 23,
+    "baseColor": "#b7c4b8", "surfaceColor": "#dce5d8",
+    "entryStrip": { "x": 0, "z": 10.3, "width": 5, "depth": 1.2, "color": "#c9d5c8" }
+  },
+  "theme": {
+    "background": "#dce8e2", "fogColor": "#dce8e2", "fogNear": 20, "fogFar": 42,
+    "ambientColor": "#ffffff", "ambientIntensity": 0.95, "directionalColor": "#ffffff",
+    "directionalIntensity": 1.5, "directionalPosition": [10, 16, 8], "wallColor": "#829387"
+  },
+  "meetingRooms": [],
+  "entrance": {
+    "wallSide": "right", "spawn": { "x": 0, "z": 9 },
+    "wallGap": { "minZ": 8, "maxZ": 11 }, "label": "SÂN CHƠI",
+    "labelPosition": { "x": 0, "z": 11.2 },
+    "floorPatch": { "x": 0, "z": 10.1, "width": 4, "depth": 1.4 }
+  },
+  "workstations": {
+    "columns": [], "islands": [], "desk": { "width": 1.9, "depth": 0.92 }, "chairOffset": 1.05
+  },
+  "camera": { "offsetX": 8, "height": 13, "offsetZ": 10, "lookY": 1.2 },
+  "layout": {
+    "kind": "lucky-number",
+    "title": "Vòng quay may mắn",
+    "wheel": { "x": 0, "z": -7.2, "radius": 2.4 }
+  }
+}

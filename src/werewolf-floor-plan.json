@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "bounds": {
+    "minX": -12,
+    "maxX": 12,
+    "minZ": -12,
+    "maxZ": 12
+  },
+  "defaultSpawn": { "x": 9, "z": 0 },
+  "spawnOffsets": [
+    { "x": 0, "z": 0 },
+    { "x": -1.4, "z": 0 },
+    { "x": 0, "z": 1.4 },
+    { "x": -1.4, "z": 1.4 },
+    { "x": 0, "z": -1.4 },
+    { "x": -1.4, "z": -1.4 },
+    { "x": 0, "z": 2.8 },
+    { "x": -1.4, "z": 2.8 }
+  ],
+  "spawnFallback": {
+    "originOffset": { "x": -1.4, "z": 4.2 },
+    "columns": 4,
+    "stepX": 1.4,
+    "stepZ": 1.4
+  },
+  "floor": {
+    "width": 24,
+    "depth": 24,
+    "surfaceWidth": 23,
+    "surfaceDepth": 23,
+    "baseColor": "#4c564c",
+    "surfaceColor": "#626c60",
+    "entryStrip": {
+      "x": 10.8,
+      "z": 0,
+      "width": 2.2,
+      "depth": 4,
+      "color": "#737d6d"
+    }
+  },
+  "theme": {
+    "background": "#343c37",
+    "fogColor": "#39433c",
+    "fogNear": 22,
+    "fogFar": 56,
+    "ambientColor": "#d2d9ca",
+    "ambientIntensity": 1.2,
+    "directionalColor": "#e1dec9",
+    "directionalIntensity": 1.7,
+    "directionalPosition": [-5, 16, -8],
+    "wallColor": "#69746a",
+    "runeColor": "#e0bd82",
+    "pillarColor": "#7b8475",
+    "candleWax": "#b5a681",
+    "candleLight": "#e4a85d",
+    "candleLightIntensity": 1.8,
+    "candleLightDistance": 7,
+    "moonColor": "#e0d7c3",
+    "moonEmissive": "#b0c0aa",
+    "moonEmissiveIntensity": 0.75,
+    "altarEmissiveIntensity": 0.75
+  },
+  "meetingRooms": [],
+  "entrance": {
+    "wallSide": "right",
+    "spawn": { "x": 9, "z": 0 },
+    "wallGap": { "minZ": -1.2, "maxZ": 1.2 },
+    "label": "Cổng nguyệt thực",
+    "labelPosition": { "x": 10.7, "z": 0 },
+    "floorPatch": {
+      "x": 10.5,
+      "z": 0,
+      "width": 1.5,
+      "depth": 2.4
+    }
+  },
+  "workstations": {
+    "columns": [],
+    "islands": [],
+    "desk": { "width": 1.9, "depth": 0.92 },
+    "chairOffset": 1.05
+  },
+  "camera": {
+    "offsetX": -8,
+    "height": 13,
+    "offsetZ": 7,
+    "lookY": 1.2
+  },
+  "layout": {
+    "kind": "werewolf",
+    "title": "Hội đồng dưới trăng",
+    "ritualCircle": {
+      "x": 0,
+      "z": 0,
+      "radius": 4.5,
+      "floorColor": "#5b6659",
+      "edgeColor": "#a45b61",
+      "runeColor": "#d0a76d",
+      "edgeEmissive": 0.65,
+      "runeEmissive": 0.42,
+      "sigilCount": 12
+    },
+    "altar": {
+      "x": 0,
+      "z": -8,
+      "width": 2.8,
+      "depth": 1.8,
+      "height": 1.55,
+      "stoneColor": "#5b665d",
+      "topColor": "#936957"
+    },
+    "seating": {
+      "count": 12,
+      "radius": 7.1,
+      "seatColor": "#788174",
+      "backColor": "#566157"
+    },
+    "candles": [
+      { "x": -5.8, "z": -5.8, "height": 1.25 },
+      { "x": 5.8, "z": -5.8, "height": 1.25 },
+      { "x": -5.8, "z": 5.8, "height": 1.25 },
+      { "x": 5.8, "z": 5.8, "height": 1.25 },
+      { "x": -1.8, "z": -9.1, "height": 1.45 },
+      { "x": 1.8, "z": -9.1, "height": 1.45 }
+    ],
+    "pillars": [
+      { "x": -10, "z": -10, "radius": 0.55, "height": 4.2 },
+      { "x": 10, "z": -10, "radius": 0.55, "height": 4.2 },
+      { "x": -10, "z": 10, "radius": 0.55, "height": 4.2 },
+      { "x": 10, "z": 10, "radius": 0.55, "height": 4.2 }
+    ]
+  }
+}

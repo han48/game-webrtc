@@ -1,0 +1,430 @@
+{
+  "portfolio": {
+    "title": "Portfolio",
+    "sourceUrls": [
+      "https://sabitech.co.jp/our-portfolio/?active_page=1",
+      "https://sabitech.co.jp/our-portfolio/?active_page=2",
+      "https://sabitech.co.jp/our-portfolio/?active_page=3",
+      "https://sabitech.co.jp/our-portfolio/?active_page=4"
+    ],
+    "items": [
+      {
+        "title": "ホスト→Python化移行",
+        "description": "Di chuyển 500 chương trình batch COBOL từ máy chủ lớn sang Python trên Windows Server.",
+        "url": "https://sabitech.co.jp/our-work/host-python-migration/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/Screenshot-2025-04-18-174314.png"
+      },
+      {
+        "title": "加工漏れ孔チェック（画像処理）",
+        "description": "Dùng xử lý ảnh để kiểm tra các lỗ gia công bị bỏ sót trên sản phẩm.",
+        "url": "https://sabitech.co.jp/our-work/check-for-leaks-during-processing-image-processing/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/Picture-21-e1744962977644.jpg"
+      },
+      {
+        "title": "消火活動および火災救助におけるLiDARの応用",
+        "description": "Ứng dụng LiDAR phát hiện người và vật thể trong môi trường chữa cháy, cứu hộ bị che khuất bởi khói.",
+        "url": "https://sabitech.co.jp/our-work/lidar-applications-in-fire-fighting-and-fire-rescue/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/image-33.jpg"
+      },
+      {
+        "title": "動画配信システムのPoC開発（AI開発）",
+        "description": "Phát triển thử nghiệm hệ thống phân phối video, gồm bổ sung phụ đề tiếng Anh cho video tiếng Nhật.",
+        "url": "https://sabitech.co.jp/our-work/poc-development-of-video-distribution-system-ai-development/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/Image-39.jpg"
+      },
+      {
+        "title": "StrutsからSpringMVCへの移行",
+        "description": "Chuyển ứng dụng sử dụng Struts 1 sang Spring MVC, xử lý rủi ro từ framework cũ và lỗ hổng bảo mật.",
+        "url": "https://sabitech.co.jp/our-work/migrating-from-struts-to-spring-mvc/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/Picture-7-1-1.jpg"
+      },
+      {
+        "title": "FLASHからHTML5への移行",
+        "description": "Chuyển ứng dụng web được xây dựng bằng Flash sang HTML5 sau khi trình duyệt ngừng hỗ trợ Flash.",
+        "url": "https://sabitech.co.jp/our-work/transitioning-from-flash-to-html5/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/Screenshot-2025-04-18-095720.png"
+      },
+      {
+        "title": "母子健康手帳アプリ",
+        "description": "Ứng dụng quản lý thông tin sức khỏe mẹ và bé từ thai kỳ đến quá trình nuôi dạy trẻ.",
+        "url": "https://sabitech.co.jp/our-work/maternal-and-child-health-handbook-app/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/Screenshot-2025-04-18-091359.png"
+      },
+      {
+        "title": "お客様の製品をラボ型開発",
+        "description": "Cung cấp nhân lực phát triển Ruby để tùy chỉnh sản phẩm SaaS cho khách hàng cuối.",
+        "url": "https://sabitech.co.jp/our-work/lab-type-development/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/10/Anh-co-chua-van-ban-anh-chup-man-hinh-phan-mem-may-tinh__Mo-ta-duoc-tu-dong-tao.png"
+      },
+      {
+        "title": "制作業務管理システム",
+        "description": "Hệ thống quản lý sản xuất tích hợp dự án, nhiệm vụ, ticket, biểu đồ Gantt và đánh giá.",
+        "url": "https://sabitech.co.jp/our-work/production-work-management-system/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/08/Createcloud1.png"
+      },
+      {
+        "title": "クラウド環境の調査・設計・構築",
+        "description": "Khảo sát, thiết kế và xây dựng môi trường đám mây kết nối hệ thống frontend với các gói back-office.",
+        "url": "https://sabitech.co.jp/our-work/research-design-and-construction-of-cloud-environments/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/2dcc7669-c8c1-4c81-9f0e-34994e458939.jpg"
+      },
+      {
+        "title": "繊研新聞システムの保守",
+        "description": "Bảo trì hệ thống báo Senken Shimbun của Nhật Bản trong bối cảnh hạn chế về nguồn lực và chi phí.",
+        "url": "https://sabitech.co.jp/our-work/the-senken-shimbun-system/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/10/image-4.jpg"
+      },
+      {
+        "title": "PL/SQLからPythonへの移行",
+        "description": "Di chuyển khoảng 300 chương trình batch PL/SQL để đáp ứng nhu cầu hiện đại hóa máy chủ và cơ sở dữ liệu.",
+        "url": "https://sabitech.co.jp/our-work/migrate-from-pl-sql-to-python/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/10/Screen-Shot-2023-10-27-at-10.04.51.png"
+      },
+      {
+        "title": "VB6から.NETへの移行",
+        "description": "Di chuyển hệ thống bán vé xe buýt sân bay từ VB6 sang VB.NET.",
+        "url": "https://sabitech.co.jp/our-work/migrate-from-vb6-to-net/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/10/Screen-Shot-2023-10-27-at-09.54.40.png"
+      },
+      {
+        "title": "ChatGPT-3.5 TURBO",
+        "description": "Sử dụng hệ thống chat ứng dụng ChatGPT để hỗ trợ xử lý câu hỏi của khách hàng.",
+        "url": "https://sabitech.co.jp/our-work/chatgpt-3-5-turbo/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/10/Blue-And-White-Professional-Digital-Marketing-Agency-Brochure.png"
+      },
+      {
+        "title": "学生向け電子書籍アプリ",
+        "description": "Xây dựng môi trường phân phối nội dung dành cho sinh viên như một lựa chọn thay thế Kindle trong lớp học trực tuyến.",
+        "url": "https://sabitech.co.jp/our-work/e-book-app-for-students/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/08/bookreader1.png"
+      },
+      {
+        "title": "販売代理店向けポータル",
+        "description": "Cổng quản lý bán hàng dành cho nhà phân phối điện thoại thông minh, máy tính và các sản phẩm liên quan.",
+        "url": "https://sabitech.co.jp/our-work/reseller-portal/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/08/portal1.png"
+      },
+      {
+        "title": "AWA-ADシステム（ウェブアプリ＋スマホアプリ）",
+        "description": "Hệ thống web và di động cho các chương trình khuyến mãi có sự tham gia của người dùng như giveaway và cuộc thi.",
+        "url": "https://sabitech.co.jp/our-work/awa-ad-system/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/03/awaad.png"
+      },
+      {
+        "title": "運動指導アプリ",
+        "description": "Ứng dụng hướng dẫn tập luyện với chức năng quản lý người dùng, kế hoạch, bài học và tin nhắn.",
+        "url": "https://sabitech.co.jp/our-work/exercise-guidance-app/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/08/trainer1.png"
+      },
+      {
+        "title": "車予約アプリ",
+        "description": "Hệ thống đặt xe VIP trên web và di động, quản lý phương tiện, tài xế, đặt chỗ và doanh số.",
+        "url": "https://sabitech.co.jp/our-work/car-reservation-app/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/03/car-rental.png"
+      },
+      {
+        "title": "WineBankシステム（ウェブアプリ＋スマホアプリ）",
+        "description": "Dịch vụ web và di động cho phép đầu tư vào nhiều nhãn rượu vang quý hiếm.",
+        "url": "https://sabitech.co.jp/our-work/winebank-system/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/03/wine.png"
+      }
+    ]
+  },
+  "news": {
+    "title": "News",
+    "sourceUrls": [
+      "https://sabitech.co.jp/news/?active_page=1",
+      "https://sabitech.co.jp/news/?active_page=2",
+      "https://sabitech.co.jp/news/?active_page=3",
+      "https://sabitech.co.jp/news/?active_page=4",
+      "https://sabitech.co.jp/news/?active_page=5",
+      "https://sabitech.co.jp/news/?active_page=6",
+      "https://sabitech.co.jp/news/?active_page=7",
+      "https://sabitech.co.jp/news/?active_page=8"
+    ],
+    "items": [
+      {
+        "date": "2026/09/10",
+        "title": "東洋システム様がサビテックを訪問｜パートナーシップの次のフェーズへ",
+        "url": "https://sabitech.co.jp/jp-blog-news-toyo-system-sabitech-offshore-it-vietnam/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/09/Text.png"
+      },
+      {
+        "date": "2026/08/24",
+        "title": "サビテック社員旅行 2026：ひとつの夏、数えきれない思い出",
+        "url": "https://sabitech.co.jp/news-sabitechcompanytrip2026/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/08/Website-Image.png"
+      },
+      {
+        "date": "2026/06/26",
+        "title": "サビテック設立5周年のご挨拶 – 信頼と成長、そして未来への挑戦",
+        "url": "https://sabitech.co.jp/sabitech-5th-anniversary/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/06/5.png"
+      },
+      {
+        "date": "2026/05/12",
+        "title": "【深掘り解説】2026年5月、日本が挑む「AI主権」と文化の境界線",
+        "url": "https://sabitech.co.jp/japan-ai-sovereignty-cultural-boundaries-2026-05/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/05/Untitled-design-1.png"
+      },
+      {
+        "date": "2026/04/22",
+        "title": "【出展レポート】Japan IT Week 春 2026｜AI実装とDX推進から見えた開発トレンド",
+        "url": "https://sabitech.co.jp/japan-it-week-2026-ai-dx-report/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/04/SabiTech_Japan-IT-Week_Media-1350-x-1350-px-Website.png"
+      },
+      {
+        "date": "2026/04/07",
+        "title": "【出展のお知らせ】サビテックジャパン、Japan IT Week 春 2026 AIエリアに出展決定！",
+        "url": "https://sabitech.co.jp/sabitech-japan-japan-it-week-2026/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/04/SabiTech_Japan-IT-Week_2026.png"
+      },
+      {
+        "date": "2026/02/05",
+        "title": "サビテックジャパン、Japan ICT Day 2026 に参加",
+        "url": "https://sabitech.co.jp/sabitech-japan-ict-day-2026-recap/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/02/IMGL1415-scaled-e1770295406721.jpg"
+      },
+      {
+        "date": "2026/02/02",
+        "title": "AI Hackathon – Innovation Challenges、PITCHING DAYで幕を閉じ、新たなAIの一歩へ",
+        "url": "https://sabitech.co.jp/ai-hackathon-innovation-challenges-pitching-day/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/02/Gao-coi-Trao-giai.jpg"
+      },
+      {
+        "date": "2026/01/09",
+        "title": "株式会社RENOSY X（リノシークロス） 様とのインタビュー​",
+        "url": "https://sabitech.co.jp/renosyx-sabitech-interview/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/11/Cover.jpg"
+      },
+      {
+        "date": "2026/01/08",
+        "title": "KICKOFF AI HACKATHON – INNOVATION CHALLENGES",
+        "url": "https://sabitech.co.jp/ai-hackathon-innovation-challenges/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2026/01/Sabi-Avtar-AI-Hackathon-1-scaled.jpg"
+      },
+      {
+        "date": "2025/12/09",
+        "title": "SABITECH 健康診断 2025: 成功へ導く健全なヘルス基盤",
+        "url": "https://sabitech.co.jp/sabitech-health-check-2025/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/12/SabiTech-Kham-suc-khoe-dinh-ki-WEBSITE-BANNER.jpg"
+      },
+      {
+        "date": "2025/11/13",
+        "title": "SUPERMAN’S DAY 2025 – サビテックの「スーパーヒーローたち」に感謝を込めて",
+        "url": "https://sabitech.co.jp/sabitech-supermans-day-2025/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/11/Banner-Mans-Day.jpg"
+      },
+      {
+        "date": "2025/10/29",
+        "title": "サビテック、ISO再認証 ― マネジメントシステムの更なる向上へ",
+        "url": "https://sabitech.co.jp/sabitech-iso-9001-27001-recertification-2025/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/10/Sabi-ISO-Banner.jpg"
+      },
+      {
+        "date": "2025/10/08",
+        "title": "VISTとAI分野で戦略的パートナーシップ協定を締結しました",
+        "url": "https://sabitech.co.jp/vist-sabitech-mou-signing-ceremony-ai/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/10/Cover.jpg"
+      },
+      {
+        "date": "2025/09/05",
+        "title": "日本語能力 ― 日本のお客様との持続的なパートナーシップをつなぐ架け橋",
+        "url": "https://sabitech.co.jp/jlpt-n1-success/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/09/N1-Cover.png"
+      },
+      {
+        "date": "2025/08/25",
+        "title": "【お知らせ】国慶節に伴う休業について",
+        "url": "https://sabitech.co.jp/vietnam-independence-day-holiday-notice/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/08/Cover-Calendar.png"
+      },
+      {
+        "date": "2025/08/18",
+        "title": "ハロン湾 2025 – 忘れられないSABITECHの旅",
+        "url": "https://sabitech.co.jp/sabitech-summertrip-2025/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/08/Cover.png"
+      },
+      {
+        "date": "2025/07/09",
+        "title": "新たなご縁が切り開く未来への一歩",
+        "url": "https://sabitech.co.jp/jcssa-visit-sabitech-vietnam/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/07/Cover.png"
+      },
+      {
+        "date": "2025/05/09",
+        "title": "初出展！Japan IT Weekで、SabiTechの若い力が全開！",
+        "url": "https://sabitech.co.jp/sabitech-participants-japan-it-week-2025/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/05/20250423_011902000_iOS-scaled.jpg"
+      },
+      {
+        "date": "2025/04/15",
+        "title": "SabiTech 出展のお知らせ | 日本最大級のIT展示会「Japan IT Week Spring 2025」",
+        "url": "https://sabitech.co.jp/japan-it-week-spring-2025/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/JAPAN-iT-WEEK.png"
+      },
+      {
+        "date": "2025/04/01",
+        "title": "サビテックが「Ruby Association Certified System Integrator Silver」に認定されました",
+        "url": "https://sabitech.co.jp/ruby-system-integrator-silver/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/04/RACertifiedSierSilver-e1744079118106.png"
+      },
+      {
+        "date": "2025/03/27",
+        "title": "PHP Laravelにおけるパフォーマンス最適化への取り組み",
+        "url": "https://sabitech.co.jp/php-laravel-performance-optimization/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/03/team.png"
+      },
+      {
+        "date": "2025/03/17",
+        "title": "SabiTech、JIET協会との重要な訪問を通じた新たな協力の可能性を強調",
+        "url": "https://sabitech.co.jp/jietvietnam/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/03/1.png"
+      },
+      {
+        "date": "2025/03/11",
+        "title": "感謝の贈り物：3月8日の国際女性デーを祝して",
+        "url": "https://sabitech.co.jp/happy-womens-day/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/03/8-3-1.png"
+      },
+      {
+        "date": "2025/02/18",
+        "title": "ビジネスマッチング交流会に参加",
+        "url": "https://sabitech.co.jp/sajxjiet-business-matching-networking/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/02/Untitled-design-19-e1739877144823.png"
+      },
+      {
+        "date": "2025/01/23",
+        "title": "2025年 旧正月休業のお知らせ",
+        "url": "https://sabitech.co.jp/2025-lunar-new-year-holiday/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/01/Bai-dang-Facebook-Thong-bao-Lich-nghi-Tet-Nguyen-dan-Cao-cap-Xanh-vang-1-e1737623355887.png"
+      },
+      {
+        "date": "2025/01/17",
+        "title": "SabiTech、2024年の忘年会を開催：つながり、共有、そして未来に向けて",
+        "url": "https://sabitech.co.jp/2024-year-end-party/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/01/20250111_075744531_iOS-2-e1737107196196.jpg"
+      },
+      {
+        "date": "2025/01/08",
+        "title": "お客様の声：株式会社レパスト様DX推進プロジェクトにおけるハイブリッド型オフショア開発の成功実績",
+        "url": "https://sabitech.co.jp/testimonial-successful-cooperation-with-repasto-co-ltd/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/01/Image-2-scaled.jpeg"
+      },
+      {
+        "date": "2025/01/07",
+        "title": "新年を祝し、SabiTechの誇るRuby Programmer Gold認定！",
+        "url": "https://sabitech.co.jp/ruby-programmer-gold/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2025/01/z6206472329362_e19a00d2c9c2e89e87cbfc73d82e541b.jpg"
+      },
+      {
+        "date": "2024/12/11",
+        "title": "SabiTech、Japan ICT Day 2024に参加 – 新たなパートナーシップと未来の成長へ",
+        "url": "https://sabitech.co.jp/japan-ict-day-2024/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/12/IMGM3429-scaled.jpg"
+      },
+      {
+        "date": "2024/12/06",
+        "title": "日本の大手企業の代表者様がSabiTechベトナムオフィスを訪問",
+        "url": "https://sabitech.co.jp/representatives-of-major-japanese-companies-visit-sabitech-vietnam-office/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/12/img.jpg"
+      },
+      {
+        "date": "2024/11/14",
+        "title": "SabiTechのMen’s Day：日々の努力に感謝を込めた女性社員からの特別な時間",
+        "url": "https://sabitech.co.jp/sabitech-men-day-female-employees-express-their-gratitude-for-their-daily-efforts/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/11/Untitled-design-7-e1731582107839.png"
+      },
+      {
+        "date": "2024/11/06",
+        "title": "サビテック「ベトナム・島根県IT企業交流会」に参加：日本との協力強化とRubyプログラミングの強みを確立",
+        "url": "https://sabitech.co.jp/shimane-it-business-exchange-meeting/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/11/Shimane-e1731405698524.png"
+      },
+      {
+        "date": "2024/11/05",
+        "title": "探索とつながり: SabiTechのPù Luôngでの意義深い旅",
+        "url": "https://sabitech.co.jp/sabitechcompanytrip/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/11/original-EC262218-8D13-41A4-A1FA-32EF0FAE904D.jpeg"
+      },
+      {
+        "date": "2024/10/30",
+        "title": "価値あるパートナーシップの深化：株式会社モアソンジャパン様のベトナム訪問",
+        "url": "https://sabitech.co.jp/deepening-valuable-partnerships/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/10/welcomeboard-3.png"
+      },
+      {
+        "date": "2024/10/20",
+        "title": "ベトナム女性の日、おめでとうございます。",
+        "url": "https://sabitech.co.jp/happy-vietnamese-womens-day/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/10/20_10.jpg"
+      },
+      {
+        "date": "2024/07/22",
+        "title": "プロジェクトチームのメンバーは、毎朝のDailyMeetingにおいて、前日の進捗状況を共有し、当日の目標を設定します。",
+        "url": "https://sabitech.co.jp/project-team-members-hold-a-daily-meeting/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/07/ABD00198-scaled.jpg"
+      },
+      {
+        "date": "2024/04/01",
+        "title": "ベトナム・ハノイオフィス移転のお知らせ",
+        "url": "https://sabitech.co.jp/notice-of-relocation-of-hanoi-office-in-vietnam/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/04/thumbnail-e1721297548268.jpg"
+      },
+      {
+        "date": "2024/02/04",
+        "title": "当社サビテックジャパン、日本情報技術取引所（JIET）に加盟、情報化社会の発展とIT業界に貢献",
+        "url": "https://sabitech.co.jp/sabitech-japan-joins-the-japan-information-technology-exchange/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2024/07/スクリーンショット-2024-07-03-114017.png"
+      },
+      {
+        "date": "2023/10/12",
+        "title": "日本のIT企業がSabiTechを訪問",
+        "url": "https://sabitech.co.jp/japanese-it-companies-visit-sabitech/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/10/IMG_2376-scaled-e1697083368265.jpg"
+      },
+      {
+        "date": "2023/08/03",
+        "title": "サビテックと手を繋いで愛を分かち合い、苦労を助け合う",
+        "url": "https://sabitech.co.jp/sabitech-sharing-and-contributions-together/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/08/1U2A1847_1-scaled.jpg"
+      },
+      {
+        "date": "2023/06/05",
+        "title": "アイミツ社よりアプリ開発サービスを提供する優良企業のトップ4",
+        "url": "https://sabitech.co.jp/imitsu_award_2022/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2023/06/AwardSabi-Tech.png"
+      },
+      {
+        "date": "2021/11/05",
+        "title": "知恵と技術を活かすサビテック",
+        "url": "https://sabitech.co.jp/the-house-of-wisdom-the-house-of-technology/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2021/11/collaborative-process-multicultural-businesspeople-using-laptop-presentation-communication-meeting-brainstorming-ideas-about-project-colleagues-working-plan-success-strategy-modern-office-2.jpg"
+      },
+      {
+        "date": "2021/09/08",
+        "title": "オフショア開発の失敗事例と失敗から学ぶ成功方法",
+        "url": "https://sabitech.co.jp/offshore_lessonlearned/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2021/09/casestudy2.png"
+      },
+      {
+        "date": "2021/09/08",
+        "title": "オフショア開発のコスト削減効果を最大限高めるために",
+        "url": "https://sabitech.co.jp/offshore_costsaving_point/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2021/09/cost1.png"
+      },
+      {
+        "date": "2021/08/14",
+        "title": "オフショア開発における請負契約とラボ型開発の違いとは？メリットやデメリットを紹介",
+        "url": "https://sabitech.co.jp/offshore_labo_vs_fixedprice/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2021/08/meritdemerit.png"
+      },
+      {
+        "date": "2021/06/26",
+        "title": "オフショア開発を成功に導く3つのポイント",
+        "url": "https://sabitech.co.jp/offshore-success-3points/",
+        "image": "https://sabitech.co.jp/wp-content/uploads/2021/06/international.jpg"
+      }
+    ]
+  }
+}

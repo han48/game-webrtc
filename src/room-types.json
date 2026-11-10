@@ -1,0 +1,34 @@
+{
+  "office": {
+    "label": "Office",
+    "icon": "fa-solid fa-building"
+  },
+  "werewolf": {
+    "label": "Ma Sói",
+    "icon": "fa-brands fa-wolf-pack-battalion"
+  },
+  "quiz": {
+    "label": "Trả lời câu hỏi",
+    "icon": "fa-solid fa-circle-question"
+  },
+  "lucky-number": {
+    "label": "Con số may mắn",
+    "icon": "fa-solid fa-dice"
+  },
+  "teams": {
+    "label": "Chia team",
+    "icon": "fa-solid fa-people-group"
+  },
+  "chess-room": {
+    "label": "Phòng Cờ",
+    "icon": "fa-solid fa-chess"
+  },
+  "sabitech": {
+    "label": "SABITECH",
+    "icon": "fa-solid fa-building-columns"
+  },
+  "concert": {
+    "label": "ATVNCG2026 D1-2",
+    "icon": "fa-solid fa-music"
+  }
+}

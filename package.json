@@ -1,0 +1,49 @@
+{
+  "name": "game-webrtc-office",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "2.5D office game in React + Three.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "build:node": "vite build",
+    "build:static": "node scripts/build-static.js",
+    "build:laravel": "vite build --base=/office-game/ --mode laravel --outDir 132.one/public/office-game && node scripts/publish-laravel.js",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "models:export": "node scripts/export-chess-models.js",
+    "export:concert": "node scripts/export-concert-floor-plan.js",
+    "export:floor": "node scripts/export-floor-plans.js",
+    "export:all-floors": "node scripts/export-floor-plans.js --all",
+    "import:floor": "node scripts/import-floor-plan.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
+    "@fortawesome/react-fontawesome": "^3.5.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "driver.js": "^1.10.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4",
+    "sweetalert2": "^11.26.25",
+    "three": "^0.186.1",
+    "three-pathfinding": "^1.3.0",
+    "ws": "^8.18.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@vitejs/plugin-basic-ssl": "^2.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}

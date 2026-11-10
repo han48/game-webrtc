@@ -1,0 +1,537 @@
+{
+  "floors": [
+    {
+      "id": "floor-1",
+      "label": "WELCOME",
+      "y": 0,
+      "floorColor": "#dce8f7",
+      "ceilingColor": "#f4f8ff",
+      "wallColor": "#b8cce7",
+      "accentColor": "#4466bb",
+      "ambientColor": "#aabbff",
+      "ambientIntensity": 0.95,
+      "pointLightColor": "#aabbff",
+      "pointLightIntensity": 42,
+      "panels": [
+        {
+          "id": "f1-p0",
+          "x": 0, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a2744", "accentColor": "#4466bb",
+          "titleColor": "#ffffff", "textColor": "#ccddff",
+          "title": "サビテックジャパン株式会社",
+          "url": "https://sabitech.co.jp/",
+          "lines": [
+            "SabiTech Japan Co., Ltd.",
+            "SUCCESS TOGETHER",
+            "─────────────────",
+            "Chuyên gia công nghệ số tại Việt Nam & Nhật Bản"
+          ]
+        },
+        {
+          "id": "f1-p1",
+          "x": -7.3, "y": 1.8, "z": 0,
+          "rotationY": 1.5707963267948966,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a2744", "accentColor": "#4466bb",
+          "titleColor": "#ffffff", "textColor": "#ccddff",
+          "title": "ABOUT US",
+          "url": "https://sabitech.co.jp/about-us/",
+          "lines": [
+            "設立: 2017年",
+            "ベトナム・ハノイ本社",
+            "日本・東京オフィス",
+            "─────────────────",
+            "Đội ngũ kỹ sư Việt Nam chất lượng cao",
+            "cung cấp giải pháp công nghệ cho thị trường Nhật Bản"
+          ]
+        },
+        {
+          "id": "f1-p2",
+          "x": 7.3, "y": 1.8, "z": 0,
+          "rotationY": -1.5707963267948966,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a2744", "accentColor": "#4466bb",
+          "titleColor": "#ffffff", "textColor": "#ccddff",
+          "title": "OFFICES",
+          "url": "https://sabitech.co.jp/contact/",
+          "lines": [
+            "VN Ha Noi:",
+            "10F MITEC Building, Lot E2,",
+            "Cau Giay New Urban Area",
+            "contact@sabitech.vn  (+84) 398-262-879",
+            "─────────────────",
+            "JP Tokyo:",
+            "102-0074 Chiyoda-ku Kudan-minami",
+            "Resona Kudan Bldg 5F KS Floor",
+            "sbt.jp@sabitech.vn  (+81) 3-5776-2595"
+          ]
+        },
+        {
+          "id": "f1-p3",
+          "x": 0, "y": 1.8, "z": 7.3,
+          "rotationY": 3.141592653589793,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a2744", "accentColor": "#4466bb",
+          "titleColor": "#ffdd66", "textColor": "#ccddff",
+          "title": "▲ LEN TANG 2: SERVICES",
+          "lines": [
+            "Cau thang len o ben trai bien bao",
+            "Di vao cua cau thang de len Tang 2"
+          ]
+        }
+      ],
+      "elevator": { "x": 0, "z": -6, "toFloorId": "floor-2" },
+      "elevatorDown": null
+    },
+    {
+      "id": "floor-2",
+      "label": "SERVICES",
+      "y": 4,
+      "floorColor": "#d8eef5",
+      "ceilingColor": "#f2fbff",
+      "wallColor": "#afd8e7",
+      "accentColor": "#44aadd",
+      "ambientColor": "#aaddff",
+      "ambientIntensity": 0.95,
+      "pointLightColor": "#aaddff",
+      "pointLightIntensity": 42,
+      "panels": [
+        {
+          "id": "f2-p0",
+          "x": -4, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#0d4a6b", "accentColor": "#44aadd",
+          "titleColor": "#ffffff", "textColor": "#aaddff",
+          "title": "DX推進支援",
+          "url": "https://sabitech.co.jp/services/",
+          "lines": [
+            "Digital Transformation Support",
+            "─────────────────",
+            "- Tu van chien luoc chuyen doi so",
+            "- Phan tich quy trinh nghiep vu",
+            "- Thiet ke kien truc he thong DX",
+            "- Dao tao & trien khai cong nghe moi"
+          ]
+        },
+        {
+          "id": "f2-p1",
+          "x": 0, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#0d4a6b", "accentColor": "#44aadd",
+          "titleColor": "#ffffff", "textColor": "#aaddff",
+          "title": "WEBシステム開発",
+          "url": "https://sabitech.co.jp/services/",
+          "lines": [
+            "Web System Development",
+            "─────────────────",
+            "- Java Spring Boot / Python Django",
+            "- ReactJS / Vue.js Frontend",
+            "- REST API & Microservices",
+            "- AWS / Azure Cloud Deployment"
+          ]
+        },
+        {
+          "id": "f2-p2",
+          "x": 4, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#0d4a6b", "accentColor": "#44aadd",
+          "titleColor": "#ffffff", "textColor": "#aaddff",
+          "title": "スマホアプリ開発",
+          "url": "https://sabitech.co.jp/services/",
+          "lines": [
+            "Mobile App Development",
+            "─────────────────",
+            "- React Native (iOS & Android)",
+            "- Flutter cross-platform",
+            "- Native Android (Kotlin)",
+            "- Native iOS (Swift)"
+          ]
+        },
+        {
+          "id": "f2-p3",
+          "x": -7.3, "y": 1.8, "z": 0,
+          "rotationY": 1.5707963267948966,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#0d4a6b", "accentColor": "#44aadd",
+          "titleColor": "#ffffff", "textColor": "#aaddff",
+          "title": "カスタムソフトウェア開発",
+          "url": "https://sabitech.co.jp/services/",
+          "lines": [
+            "Custom Software Development",
+            "─────────────────",
+            "- COBOL -> Python migration",
+            "- Legacy system modernization",
+            "- Embedded & IoT solutions",
+            "- AI/ML integration (OpenCV, ChatGPT)"
+          ]
+        },
+        {
+          "id": "f2-p4",
+          "x": 0, "y": 1.8, "z": 7.3,
+          "rotationY": 3.141592653589793,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#0d4a6b", "accentColor": "#44aadd",
+          "titleColor": "#ffdd66", "textColor": "#aaddff",
+          "title": "▲ LEN TANG 3: WHY CHOOSE US",
+          "lines": [
+            "Cau thang ben trai bien bao: len tang",
+            "Cau thang ben phai bien bao: xuong tang"
+          ]
+        }
+      ],
+      "elevator": { "x": 0, "z": -6, "toFloorId": "floor-3" },
+      "elevatorDown": { "x": 0, "z": 6, "toFloorId": "floor-1" }
+    },
+    {
+      "id": "floor-3",
+      "label": "WHY CHOOSE US",
+      "y": 8,
+      "floorColor": "#deefe2",
+      "ceilingColor": "#f5fbf6",
+      "wallColor": "#b9d9c1",
+      "accentColor": "#44bb77",
+      "ambientColor": "#aaffcc",
+      "ambientIntensity": 0.95,
+      "pointLightColor": "#aaffcc",
+      "pointLightIntensity": 42,
+      "panels": [
+        {
+          "id": "f3-p0",
+          "x": -4, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a4a2e", "accentColor": "#44bb77",
+          "titleColor": "#ffffff", "textColor": "#aaffcc",
+          "title": "確かな提案力と先端技術力",
+          "url": "https://sabitech.co.jp/about-us/",
+          "lines": [
+            "Strong Proposal & Cutting-edge Tech",
+            "─────────────────",
+            "- Kinh nghiem 7+ nam phat trien he thong Nhat",
+            "- Ap dung cong nghe moi nhat: AI, Cloud, Mobile",
+            "- Doi ngu R&D lien tuc cap nhat ky thuat"
+          ]
+        },
+        {
+          "id": "f3-p1",
+          "x": 0, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a4a2e", "accentColor": "#44bb77",
+          "titleColor": "#ffffff", "textColor": "#aaffcc",
+          "title": "高品質なサービス提供の追求",
+          "url": "https://sabitech.co.jp/about-us/",
+          "lines": [
+            "Pursuit of High-Quality Service",
+            "─────────────────",
+            "- Quy trinh QA nghiem ngat",
+            "- ISTQB certified testers: 7 nguoi",
+            "- Code review & CI/CD tu dong",
+            "- SLA cam ket chat luong"
+          ]
+        },
+        {
+          "id": "f3-p2",
+          "x": 4, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a4a2e", "accentColor": "#44bb77",
+          "titleColor": "#ffffff", "textColor": "#aaffcc",
+          "title": "日本語による円滑なコミュニケーション",
+          "url": "https://sabitech.co.jp/about-us/",
+          "lines": [
+            "Smooth Japanese Communication",
+            "─────────────────",
+            "- N1/N2/N3 Japanese: 31 nguoi",
+            "- Bridge SE nguoi Viet Nam thong thao",
+            "- Hieu van hoa lam viec Nhat Ban",
+            "- Timezone overlap: UTC+7 & UTC+9"
+          ]
+        },
+        {
+          "id": "f3-p3",
+          "x": -7.3, "y": 1.8, "z": 0,
+          "rotationY": 1.5707963267948966,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a4a2e", "accentColor": "#44bb77",
+          "titleColor": "#ffffff", "textColor": "#aaffcc",
+          "title": "優秀な人財を世界へ",
+          "url": "https://sabitech.co.jp/about-us/",
+          "lines": [
+            "World-Class Human Resources",
+            "─────────────────",
+            "- Ruby certified: 9 nguoi",
+            "- AWS certified: 24 nguoi",
+            "- Azure certified: 16 nguoi",
+            "- PMP/PMI: 7 nguoi"
+          ]
+        },
+        {
+          "id": "f3-p4",
+          "x": 0, "y": 1.8, "z": 7.3,
+          "rotationY": 3.141592653589793,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#1a4a2e", "accentColor": "#44bb77",
+          "titleColor": "#ffdd66", "textColor": "#aaffcc",
+          "title": "▲ LEN TANG 4: PORTFOLIO",
+          "lines": [
+            "Cau thang ben trai bien bao: len tang",
+            "Cau thang ben phai bien bao: xuong tang"
+          ]
+        }
+      ],
+      "elevator": { "x": 0, "z": -6, "toFloorId": "floor-4" },
+      "elevatorDown": { "x": 0, "z": 6, "toFloorId": "floor-2" }
+    },
+    {
+      "id": "floor-4",
+      "label": "PORTFOLIO",
+      "y": 12,
+      "floorColor": "#eee2f5",
+      "ceilingColor": "#fbf6ff",
+      "wallColor": "#d5bce5",
+      "accentColor": "#9955cc",
+      "ambientColor": "#ddaaff",
+      "ambientIntensity": 0.95,
+      "pointLightColor": "#ddaaff",
+      "pointLightIntensity": 42,
+      "panels": [
+        {
+          "id": "f4-p0",
+          "x": -4, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#3d1a5c", "accentColor": "#9955cc",
+          "titleColor": "#ffffff", "textColor": "#ddaaff",
+          "title": "LEGACY MODERNIZATION",
+          "url": "https://sabitech.co.jp/our-portfolio/?active_page=1",
+          "gallery": "portfolio",
+          "lines": [
+            "COBOL -> Python Migration",
+            "Image Processing (OpenCV)",
+            "LiDAR Firefighting System",
+            "Medical Video AI Analysis",
+            "─────────────────",
+            "Tech: Python, AI/ML, OpenCV"
+          ]
+        },
+        {
+          "id": "f4-p1",
+          "x": 0, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#3d1a5c", "accentColor": "#9955cc",
+          "titleColor": "#ffffff", "textColor": "#ddaaff",
+          "title": "ENTERPRISE WEB",
+          "lines": [
+            "Java Spring Boot ERP",
+            "HTML5 Canvas App",
+            "ReactJS CMS Platform",
+            "Ruby on Rails SaaS",
+            "─────────────────",
+            "Tech: Java, React, Ruby, Rails"
+          ]
+        },
+        {
+          "id": "f4-p2",
+          "x": 4, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#3d1a5c", "accentColor": "#9955cc",
+          "titleColor": "#ffffff", "textColor": "#ddaaff",
+          "title": "MOBILE & CLOUD",
+          "lines": [
+            "React Native Health App",
+            "eBook App (Android/iOS)",
+            "Car Booking App",
+            "Cloud AWS/Azure Migration",
+            "─────────────────",
+            "Tech: React Native, Flutter, AWS"
+          ]
+        },
+        {
+          "id": "f4-p3",
+          "x": -7.3, "y": 1.8, "z": 0,
+          "rotationY": 1.5707963267948966,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#3d1a5c", "accentColor": "#9955cc",
+          "titleColor": "#ffffff", "textColor": "#ddaaff",
+          "title": "DATABASE & MAINTENANCE",
+          "lines": [
+            "Oracle RDS Migration",
+            "Ruby on Rails Maintenance",
+            "VB.NET Legacy Support",
+            "ChatGPT Chatbot Integration",
+            "─────────────────",
+            "Tech: Oracle, VB.NET, ChatGPT API"
+          ]
+        },
+        {
+          "id": "f4-p4",
+          "x": 0, "y": 1.8, "z": 7.3,
+          "rotationY": 3.141592653589793,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#3d1a5c", "accentColor": "#9955cc",
+          "titleColor": "#ffdd66", "textColor": "#ddaaff",
+          "title": "▲ LEN TANG 5: CERTIFICATIONS",
+          "lines": [
+            "Cau thang ben trai bien bao: len tang",
+            "Cau thang ben phai bien bao: xuong tang"
+          ]
+        }
+      ],
+      "elevator": { "x": 0, "z": -6, "toFloorId": "floor-5" },
+      "elevatorDown": { "x": 0, "z": 6, "toFloorId": "floor-3" }
+    },
+    {
+      "id": "floor-5",
+      "label": "CERTIFICATIONS",
+      "y": 16,
+      "floorColor": "#f8e4d9",
+      "ceilingColor": "#fff8f1",
+      "wallColor": "#e9bda9",
+      "accentColor": "#ddaa00",
+      "ambientColor": "#ffddaa",
+      "ambientIntensity": 0.95,
+      "pointLightColor": "#ffddaa",
+      "pointLightIntensity": 42,
+      "panels": [
+        {
+          "id": "f5-p0",
+          "x": -4, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#8b1a1a", "accentColor": "#ddaa00",
+          "titleColor": "#ffffff", "textColor": "#ffddaa",
+          "title": "CERTIFICATIONS",
+          "lines": [
+            "Ruby: 9 nin",
+            "AWS: 24 nin",
+            "Azure: 16 nin",
+            "Oracle: 3 nin",
+            "PMP/PMI: 7 nin",
+            "ISTQB: 7 nin",
+            "Japanese N1-N3: 31 nin"
+          ]
+        },
+        {
+          "id": "f5-p1",
+          "x": 0, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#8b1a1a", "accentColor": "#ddaa00",
+          "titleColor": "#ffffff", "textColor": "#ffddaa",
+          "title": "CONTACT VIETNAM",
+          "url": "https://sabitech.co.jp/contact/",
+          "lines": [
+            "10F MITEC Building,",
+            "Lot E2, Cau Giay New Urban Area,",
+            "Hanoi, Vietnam",
+            "─────────────────",
+            "contact@sabitech.vn",
+            "(+84) 398-262-879"
+          ]
+        },
+        {
+          "id": "f5-p2",
+          "x": 4, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#8b1a1a", "accentColor": "#ddaa00",
+          "titleColor": "#ffffff", "textColor": "#ffddaa",
+          "title": "CONTACT JAPAN",
+          "url": "https://sabitech.co.jp/contact/",
+          "lines": [
+            "102-0074",
+            "Chiyoda-ku Kudan-minami 1-5-6",
+            "Resona Kudan Bldg 5F KS Floor",
+            "─────────────────",
+            "sbt.jp@sabitech.vn",
+            "(+81) 3-5776-2595"
+          ]
+        },
+        {
+          "id": "f5-p3",
+          "x": -7.3, "y": 1.8, "z": 0,
+          "rotationY": 1.5707963267948966,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#8b1a1a", "accentColor": "#ddaa00",
+          "titleColor": "#ffdd66", "textColor": "#ffddaa",
+          "title": "SUCCESS TOGETHER",
+          "url": "https://sabitech.co.jp/",
+          "lines": [
+            "SabiTech Japan Co., Ltd.",
+            "─────────────────",
+            "Cung nhau thanh cong.",
+            "tomoni, seikou he."
+          ]
+        },
+        {
+          "id": "f5-p4",
+          "x": 0, "y": 1.8, "z": 7.3,
+          "rotationY": 3.141592653589793,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#8b1a1a", "accentColor": "#ddaa00",
+          "titleColor": "#ffdd66", "textColor": "#ffddaa",
+          "title": "▲ LEN TANG 6: NEWS / ▼ XUONG TANG 4",
+          "lines": [
+            "Cau thang len o ben trai bien bao",
+            "Cau thang xuong o ben phai bien bao"
+          ]
+        }
+      ],
+      "elevator": { "x": 0, "z": -6, "toFloorId": "floor-6" },
+      "elevatorDown": { "x": 0, "z": 6, "toFloorId": "floor-4" }
+    },
+    {
+      "id": "floor-6",
+      "label": "NEWS",
+      "y": 20,
+      "floorColor": "#e1edf5",
+      "ceilingColor": "#f5faff",
+      "wallColor": "#b7d0e3",
+      "accentColor": "#347ca5",
+      "ambientColor": "#b6e2ff",
+      "ambientIntensity": 0.95,
+      "pointLightColor": "#b6e2ff",
+      "pointLightIntensity": 42,
+      "panels": [
+        {
+          "id": "f6-p0",
+          "x": 0, "y": 1.8, "z": -7.3,
+          "rotationY": 0,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#143c5b", "accentColor": "#347ca5",
+          "titleColor": "#ffffff", "textColor": "#b6e2ff",
+          "title": "SABITECH NEWS",
+          "url": "https://sabitech.co.jp/news/?active_page=1",
+          "gallery": "news",
+          "lines": [
+            "47 bai viet da duoc xac minh",
+            "Su dung E de mo thu vien tin tuc"
+          ]
+        },
+        {
+          "id": "f6-p1",
+          "x": 0, "y": 1.8, "z": 7.3,
+          "rotationY": 3.141592653589793,
+          "width": 3.5, "height": 2.4,
+          "bgColor": "#143c5b", "accentColor": "#347ca5",
+          "titleColor": "#ffdd66", "textColor": "#b6e2ff",
+          "title": "▼ XUONG TANG 5: CERTIFICATIONS",
+          "lines": [
+            "Cau thang xuong o ben phai bien bao",
+            "Tang 5: Chung chi va lien he"
+          ]
+        }
+      ],
+      "elevator": null,
+      "elevatorDown": { "x": 0, "z": 6, "toFloorId": "floor-5" }
+    }
+  ]
+}

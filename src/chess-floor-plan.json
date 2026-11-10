@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "bounds": { "minX": -26, "maxX": 34, "minZ": -20, "maxZ": 20 },
+  "defaultSpawn": { "x": 22, "z": 0 },
+  "spawnOffsets": [
+    { "x": 0, "z": 0 },
+    { "x": -1.4, "z": 0 },
+    { "x": 0, "z": 1.4 },
+    { "x": -1.4, "z": 1.4 },
+    { "x": 0, "z": -1.4 },
+    { "x": -1.4, "z": -1.4 },
+    { "x": 0, "z": 2.8 },
+    { "x": -1.4, "z": 2.8 }
+  ],
+  "spawnFallback": {
+    "originOffset": { "x": -1.4, "z": 4.2 },
+    "columns": 5,
+    "stepX": 1.4,
+    "stepZ": 1.4
+  },
+  "floor": {
+    "width": 60,
+    "depth": 40,
+    "surfaceWidth": 58,
+    "surfaceDepth": 38,
+    "baseColor": "#b8a882",
+    "surfaceColor": "#d6c99a",
+    "entryStrip": {
+      "x": 17,
+      "z": 0,
+      "width": 2,
+      "depth": 5,
+      "color": "#c8ba90"
+    }
+  },
+  "theme": {
+    "background": "#d4cbb5",
+    "fogColor": "#d4cbb5",
+    "fogNear": 22,
+    "fogFar": 52,
+    "ambientColor": "#fff5e0",
+    "ambientIntensity": 1.0,
+    "directionalColor": "#fff8f0",
+    "directionalIntensity": 1.5,
+    "directionalPosition": [10, 18, 8],
+    "wallColor": "#a89268"
+  },
+  "meetingRooms": [],
+  "entrance": {
+    "wallSide": "right",
+    "spawn": { "x": 22, "z": 0 },
+    "wallGap": { "minZ": -2.5, "maxZ": 2.5 },
+    "label": "Phòng Cờ",
+    "labelPosition": { "x": 24, "z": 0 },
+    "floorPatch": { "x": 17, "z": 0, "width": 4, "depth": 4 }
+  },
+  "workstations": {
+    "columns": [],
+    "islands": [],
+    "desk": { "width": 1.9, "depth": 0.92 },
+    "chairOffset": 1.05
+  },
+  "camera": {
+    "offsetX": 10,
+    "height": 20,
+    "offsetZ": 8,
+    "lookY": 1.2
+  },
+  "layout": {
+    "kind": "chess-room",
+    "title": "Phòng Cờ",
+    "tables": [
+      {
+        "id": "carô-1",
+        "type": "caro",
+        "label": "Cờ Ca Rô",
+        "x": -18,
+        "z": -10,
+        "seats": [
+          { "dx": 0, "dz": -1.3, "rotation": 0 },
+          { "dx": 0, "dz": 1.3, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "carô-2",
+        "type": "caro",
+        "label": "Cờ Ca Rô",
+        "x": -18,
+        "z": -2,
+        "seats": [
+          { "dx": 0, "dz": -1.3, "rotation": 0 },
+          { "dx": 0, "dz": 1.3, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "carô-3",
+        "type": "caro",
+        "label": "Cờ Ca Rô",
+        "x": -18,
+        "z": 6,
+        "seats": [
+          { "dx": 0, "dz": -1.3, "rotation": 0 },
+          { "dx": 0, "dz": 1.3, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "tuong-1",
+        "type": "xiangqi",
+        "label": "Cờ Tướng",
+        "x": -6,
+        "z": -10,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "tuong-2",
+        "type": "xiangqi",
+        "label": "Cờ Tướng",
+        "x": -6,
+        "z": -2,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "tuong-3",
+        "type": "xiangqi",
+        "label": "Cờ Tướng",
+        "x": -6,
+        "z": 6,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "vua-1",
+        "type": "chess",
+        "label": "Cờ Vua",
+        "x": 6,
+        "z": -10,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "vua-2",
+        "type": "chess",
+        "label": "Cờ Vua",
+        "x": 6,
+        "z": -2,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "vua-3",
+        "type": "chess",
+        "label": "Cờ Vua",
+        "x": 6,
+        "z": 6,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "dongtay-1",
+        "type": "dongtay",
+        "label": "Cờ Đông Tây",
+        "x": 18,
+        "z": -10,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "dongtay-2",
+        "type": "dongtay",
+        "label": "Cờ Đông Tây",
+        "x": 18,
+        "z": -2,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "dongtay-3",
+        "type": "dongtay",
+        "label": "Cờ Đông Tây",
+        "x": 18,
+        "z": 6,
+        "seats": [
+          { "dx": 0, "dz": -1.5, "rotation": 0 },
+          { "dx": 0, "dz": 1.5, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "bantau-1",
+        "type": "battleship",
+        "label": "Bắn Tàu",
+        "x": 28,
+        "z": -10,
+        "seats": [
+          { "dx": 0, "dz": -1.3, "rotation": 0 },
+          { "dx": 0, "dz": 1.3, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "bantau-2",
+        "type": "battleship",
+        "label": "Bắn Tàu",
+        "x": 28,
+        "z": -2,
+        "seats": [
+          { "dx": 0, "dz": -1.3, "rotation": 0 },
+          { "dx": 0, "dz": 1.3, "rotation": 3.14159 }
+        ]
+      },
+      {
+        "id": "bantau-3",
+        "type": "battleship",
+        "label": "Bắn Tàu",
+        "x": 28,
+        "z": 6,
+        "seats": [
+          { "dx": 0, "dz": -1.3, "rotation": 0 },
+          { "dx": 0, "dz": 1.3, "rotation": 3.14159 }
+        ]
+      }
+    ],
+    "sectionLabels": [
+      { "x": -18, "z": -15, "text": "Cờ Ca Rô" },
+      { "x": -6,  "z": -15, "text": "Cờ Tướng" },
+      { "x": 6,   "z": -15, "text": "Cờ Vua" },
+      { "x": 18,  "z": -15, "text": "Cờ Đông Tây" },
+      { "x": 28,  "z": -15, "text": "Bắn Tàu" }
+    ],
+    "decorPillars": [
+      { "x": -23, "z": -17.5 },
+      { "x": 23,  "z": -17.5 },
+      { "x": -23, "z": 17.5 },
+      { "x": 23,  "z": 17.5 }
+    ],
+    "wallLamps": [
+      { "x": -25, "z": -10 },
+      { "x": -25, "z": 2 },
+      { "x": 25,  "z": -10 },
+      { "x": 25,  "z": 2 },
+      { "x": -10, "z": -19 },
+      { "x": 6,   "z": -19 },
+      { "x": 31,  "z": -4 }
+    ]
+  }
+}
